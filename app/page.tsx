@@ -1,3 +1,4 @@
+import qrPic from '@/public/image-qr-code.png';
 import Image from 'next/image';
 
 export default function Home() {
@@ -6,7 +7,7 @@ export default function Home() {
       <main className="flex justify-center">
         <div className="bg-white w-[320px] h-[499px] rounded-[20px] px-4">
           <Image
-            src="/image-qr-code.png"
+            src={qrPic}
             width={288}
             height={288}
             alt="Qr Image"
